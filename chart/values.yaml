@@ -4,15 +4,15 @@
 
 replicaCount: 1
 
-secondimage:
-  registry: docker.io
-  repository: nabeels/alpine
-  tag: 3.15.1
-
 firstimage:
   registry: docker.io
   repository: alpine
   tag: 3.14.4
+  
+secondimage:
+  registry: docker.io
+  repository: nabeels/alpine
+  tag: 3.15.1
   
 thirdimage:
   registry: docker.io
