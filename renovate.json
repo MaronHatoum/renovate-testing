@@ -2,7 +2,8 @@
   "ignoreUnstable": false,
   "packageRules": [
     {
-      "groupName": "all deps"
+      "groupName": "all deps",
+      "matchPaths": ["values.yaml"]
     }
   ]
 }
