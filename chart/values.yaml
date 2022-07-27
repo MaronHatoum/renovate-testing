@@ -19,16 +19,6 @@ thirdimage:
   repository: alpine
   tag: "3.15"
 
-fourthimage:
-  registry: docker.io
-  repository: alpine
-  tag: '3.15'
-  
-fivthimage:
-  registry: docker.io
-  repository: traefik
-  tag: v1.7.34-alpine  
-
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
