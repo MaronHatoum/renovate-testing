@@ -4,10 +4,30 @@
 
 replicaCount: 1
   
-image:
+firstimage:
   registry: docker.io
   repository: alpine
   tag: 3.10
+  
+secondimage:
+  registry: docker.io
+  repository: alpine
+  tag: 3.14
+  
+thirdimage:
+  registry: docker.io
+  repository: alpine
+  tag: "3.15"
+
+fourthimage:
+  registry: docker.io
+  repository: alpine
+  tag: '3.15'
+  
+fivthimage:
+  registry: docker.io
+  repository: traefik
+  tag: v1.7.34-alpine  
 
 imagePullSecrets: []
 nameOverride: ""
