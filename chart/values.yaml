@@ -22,13 +22,7 @@ thirdimage:
 fourthimage:
   registry: docker.io
   repository: httpd
-  tag: "2.2"
-  
-fifthimage:
-  registry: docker.io
-  repository: redis
-  tag: 6.0.16-alpine3.16
-  
+  tag: "2.2" 
 
 imagePullSecrets: []
 nameOverride: ""
