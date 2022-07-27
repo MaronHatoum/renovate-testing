@@ -16,8 +16,19 @@ secondimage:
   
 thirdimage:
   registry: docker.io
-  repository: ubuntu
-  tag: impish-20220415
+  repository: mysql
+  tag: '5.5'
+  
+fourthimage:
+  registry: docker.io
+  repository: httpd
+  tag: "2.2"
+  
+fifthimage:
+  registry: docker.io
+  repository: redis
+  tag: 6.0.16-alpine3.16
+  
 
 imagePullSecrets: []
 nameOverride: ""
