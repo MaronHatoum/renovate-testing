@@ -1,4 +1,5 @@
 {
+	"ignoreUnstable": false,
 	"packageRules": [
 		{
 			"packagePatterns": [
