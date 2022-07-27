@@ -7,7 +7,7 @@ replicaCount: 1
 thirdimage:
   registry: docker.io
   repository: alpine
-  tag: 3.14
+  tag: 3.10
 
 imagePullSecrets: []
 nameOverride: ""
