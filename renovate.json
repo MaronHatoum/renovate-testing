@@ -4,7 +4,7 @@
 			"packagePatterns": [
 				"nabeels/alpine"
 			],
-			"allowedVersions": "<3.20.0"
+			"allowedVersions": "<3.20"
 		}
 	]
 }
