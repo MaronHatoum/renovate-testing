@@ -11,13 +11,13 @@ firstimage:
   
 secondimage:
   registry: docker.io
-  repository: alpine
-  tag: 3.14
+  repository: postgres
+  tag: 11.16
   
 thirdimage:
   registry: docker.io
-  repository: alpine
-  tag: "3.15"
+  repository: ubuntu
+  tag: impish-20220415
 
 imagePullSecrets: []
 nameOverride: ""
