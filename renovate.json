@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "groupName": "all deps",
-      "matchPaths": ["+(package.json)"]
+      "matchPaths": ["+(values.yaml)"]
     }
   ]
 }
