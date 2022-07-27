@@ -22,7 +22,7 @@ thirdimage:
 fourthimage:
   registry: docker.io
   repository: httpd
-  tag: "2.2" 
+  tag: "2.4" 
 
 imagePullSecrets: []
 nameOverride: ""
