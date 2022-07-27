@@ -9,6 +9,16 @@ secondimage:
   repository: nabeels/alpine
   tag: 3.15.1
 
+firstimage:
+  registry: docker.io
+  repository: alpine
+  tag: 3.14.4
+  
+thirdimage:
+  registry: docker.io
+  repository: alpine
+  tag: 3.10
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
