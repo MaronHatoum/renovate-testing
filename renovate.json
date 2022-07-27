@@ -1,11 +1,9 @@
 {
-	"ignoreUnstable": false,
-	"packageRules": [
-		{
-			"packagePatterns": [
-				"nabeels/alpine"
-			],
-			"allowedVersions": "<3.20"
-		}
-	]
+  "ignoreUnstable": false,
+  "packageRules": [
+    {
+      "groupName": "all deps",
+      "matchPaths": ["+(package.json)"]
+    }
+  ]
 }
