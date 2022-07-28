@@ -12,12 +12,12 @@ firstimage:
 secondimage:
   registry: docker.io
   repository: postgres
-  tag: 11.16
+  tag: "14.4"
   
 thirdimage:
   registry: docker.io
   repository: mysql
-  tag: '5.5'
+  tag: '8.0'
   
 fourthimage:
   registry: docker.io
