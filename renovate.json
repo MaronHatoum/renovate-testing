@@ -4,6 +4,10 @@
     {
       "groupName": "all deps",
       "matchPaths": ["values.yaml"]
-    }
+    },
+ 		{
+			"matchPackageNames": ["*nabeels*","docker.io/nabeels/alpine"],
+			"versioning": "semver"
+		}
   ]
 }
