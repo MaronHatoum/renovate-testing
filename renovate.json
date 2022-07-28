@@ -6,7 +6,7 @@
       "matchPaths": ["values.yaml"]
     },
  		{
-			"matchPackageNames": ["*nabeels*","docker.io/nabeels/alpine"],
+			"matchPackageNames": ["*nabeels*","docker.io/nabeels/alp-v2"],
 			"versioning": "^(?<major>\\d+)\\.(?<minor>\\d+)?$"
 		}
   ]
