@@ -7,7 +7,7 @@ replicaCount: 1
 firstimage:
   registry: docker.io
   repository: alpine
-  tag: 3.10
+  tag: 3.16
 
 imagePullSecrets: []
 nameOverride: ""
