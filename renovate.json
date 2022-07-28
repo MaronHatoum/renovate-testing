@@ -4,6 +4,12 @@
     {
       "groupName": "all deps",
       "matchPaths": ["values.yaml"]
-    }
+    },
+    {
+			"matchPackageNames": [
+				"docker.io/nabeels/alp-v2"
+			],
+			"versioning": "semver-coerced"
+		}
   ]
 }
