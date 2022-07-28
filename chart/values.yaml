@@ -4,10 +4,25 @@
 
 replicaCount: 1
 
-image:
+firstimage:
   registry: docker.io
-  repository: mjnagel/postgresql12
-  tag: 12.9
+  repository: alpine
+  tag: 3.10
+  
+secondimage:
+  registry: docker.io
+  repository: postgres
+  tag: 11.16
+  
+thirdimage:
+  registry: docker.io
+  repository: mysql
+  tag: '5.5'
+  
+fourthimage:
+  registry: docker.io
+  repository: httpd
+  tag: "2.2"
 
 imagePullSecrets: []
 nameOverride: ""
